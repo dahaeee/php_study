@@ -84,5 +84,16 @@ ini_set('display_errors', '0');
         password : <input type="text" name="password">
         <input type="submit">
     </form>
+    <br><br>
+
+    <div>[+ 추가 개념]</div>
+    <?php 
+        echo $_SERVER[ "HTTP_HOST" ]."<br>"; //도메인
+        echo $_SERVER[ "REQUEST_URI" ]."<br>"; //도메인 다음 부분
+        echo $_SERVER[ "QUERY_STRING" ]."<br>"; //GET 방식으로 넘어온 값
+        echo $_SERVER[ "PHP_SELF" ]."<br>"; //도메인 다음 부분에서 GET 방식으로 넘어온 값 제외
+        echo basename( $_SERVER[ "PHP_SELF" ] ); //파일 이름
+    ?>
+    <br><br>
 </body>
 </html>
