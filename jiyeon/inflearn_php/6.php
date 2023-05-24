@@ -12,7 +12,7 @@
     $a = 1;
     echo $a+1; #2
     echo "<br />";#줄바꿈
-    $ a= 2;
+    $a= 2;
     print $a+1; #3
 
     $first = "coding";
@@ -38,11 +38,11 @@
     //비교 : 두 값을 비교 -> 조건문, 반복문에서 사용됨
     //Boolean : true, false
     //비교 연산자 == -> 두 값이 같은지 비교 (대입연산자는 = -> 값을 대입)
-    echo "1==2" :"";#false
-    var dump (1==2);
+    echo "1==2 : ";#false
+    var_dump (1==2);
     //!= -> 부정연산(값을 반대로)
     echo "1!=2" :"";#true
-    var dump (1!=2);
+    var_dump (1!=2);
     //>= -> 크거나 같다
 
 
