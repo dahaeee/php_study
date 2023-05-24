@@ -1,6 +1,3 @@
-<?php
-ini_set('display_errors', '0');
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +64,7 @@ ini_set('display_errors', '0');
     <div>[boolean]</div>
     <?php
         //0이 아닌 숫자는 모두 true를 반환
-        
+
         $a = "야호 ~!";
         gettype($a); //변수타입
         empty($a);	//비어있는지
