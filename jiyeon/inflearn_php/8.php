@@ -64,6 +64,13 @@
 
     <?php
     //boolean과 형변환
+    //boolean은 true또는 false값을가짐
+    //0이 아닌 숫자는 true, 0은 false
+
+    //값이 비어있는지 확인 empty(), is_null(), isset()이 있음 -> 비교해보기
+    //empty : 값이 비어있으면 true, 값이 있으면 flase
+    //is_null: 데이터가 없는지를 체크
+    //isset: 값이 있는지 확인
     ?>
     
 </body>
