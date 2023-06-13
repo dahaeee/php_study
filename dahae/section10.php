@@ -29,15 +29,4 @@ function get_arguments2(){
 echo get_arguments2();
 echo $test;
 
-
-
-
-
-
-
-
-
-
-
-
 ?>
